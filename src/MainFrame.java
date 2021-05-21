@@ -1118,7 +1118,7 @@ JOptionPane.showMessageDialog(null, e.getMessage());
 			message.setFrom(new InternetAddress("AUsername"));
 			message.setRecipients(Message.RecipientType.TO,
 				InternetAddress.parse(email));
-			message.setSubject("Welcome InBarcode Security");
+			message.setSubject("Welcome In Barcode Security");
 			message.setText("Dear '"+name+"',"
 				+ "\n\n Congo , Now You Are Employee Of Barcode Security"+"\n"+
                                 "Authentication Info "+"\n"+
